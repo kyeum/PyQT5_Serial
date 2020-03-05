@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>604</width>
+    <height>271</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="cb_port">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>76</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="te">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>171</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhMultiLine</set>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_connect">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Serial</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_kinect">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kinect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_send">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>200</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="gb">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>101</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Sensors</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_baud_rate">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>76</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_Imgcop">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>250</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Foot_Image.jpg</pixmap>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_save">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>70</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>170</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>200</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>230</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>40</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>70</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_8">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>170</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>200</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>230</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <zorder>gb</zorder>
+  <zorder>cb_port</zorder>
+  <zorder>te</zorder>
+  <zorder>textBrowser_2</zorder>
+  <zorder>pb_connect</zorder>
+  <zorder>pb_kinect</zorder>
+  <zorder>pb_send</zorder>
+  <zorder>cb_baud_rate</zorder>
+  <zorder>lb_Imgcop</zorder>
+  <zorder>pb_save</zorder>
+  <zorder>plainTextEdit</zorder>
+  <zorder>plainTextEdit_2</zorder>
+  <zorder>plainTextEdit_3</zorder>
+  <zorder>plainTextEdit_4</zorder>
+  <zorder>plainTextEdit_5</zorder>
+  <zorder>plainTextEdit_6</zorder>
+  <zorder>plainTextEdit_7</zorder>
+  <zorder>plainTextEdit_8</zorder>
+  <zorder>plainTextEdit_9</zorder>
+  <zorder>plainTextEdit_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>firstClicked()</slot>
+ </slots>
+</ui>
