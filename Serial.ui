@@ -149,7 +149,7 @@
     <string>Save</string>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit">
+  <widget class="QPlainTextEdit" name="te_cop_1">
    <property name="geometry">
     <rect>
      <x>380</x>
@@ -168,7 +168,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_2">
+  <widget class="QPlainTextEdit" name="te_cop_2">
    <property name="geometry">
     <rect>
      <x>380</x>
@@ -187,7 +187,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_3">
+  <widget class="QPlainTextEdit" name="te_cop_3">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -206,7 +206,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_4">
+  <widget class="QPlainTextEdit" name="te_cop_4">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -225,7 +225,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_5">
+  <widget class="QPlainTextEdit" name="te_cop_5">
    <property name="geometry">
     <rect>
      <x>380</x>
@@ -244,7 +244,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_6">
+  <widget class="QPlainTextEdit" name="te_cop_6">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -263,7 +263,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_7">
+  <widget class="QPlainTextEdit" name="te_cop_7">
    <property name="geometry">
     <rect>
      <x>450</x>
@@ -282,7 +282,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_8">
+  <widget class="QPlainTextEdit" name="te_cop_8">
    <property name="geometry">
     <rect>
      <x>540</x>
@@ -301,7 +301,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_9">
+  <widget class="QPlainTextEdit" name="te_cop_9">
    <property name="geometry">
     <rect>
      <x>540</x>
@@ -320,7 +320,7 @@
     <bool>false</bool>
    </property>
   </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_10">
+  <widget class="QPlainTextEdit" name="te_cop_10">
    <property name="geometry">
     <rect>
      <x>460</x>
@@ -349,16 +349,16 @@
   <zorder>cb_baud_rate</zorder>
   <zorder>lb_Imgcop</zorder>
   <zorder>pb_save</zorder>
-  <zorder>plainTextEdit</zorder>
-  <zorder>plainTextEdit_2</zorder>
-  <zorder>plainTextEdit_3</zorder>
-  <zorder>plainTextEdit_4</zorder>
-  <zorder>plainTextEdit_5</zorder>
-  <zorder>plainTextEdit_6</zorder>
-  <zorder>plainTextEdit_7</zorder>
-  <zorder>plainTextEdit_8</zorder>
-  <zorder>plainTextEdit_9</zorder>
-  <zorder>plainTextEdit_10</zorder>
+  <zorder>te_cop_1</zorder>
+  <zorder>te_cop_2</zorder>
+  <zorder>te_cop_3</zorder>
+  <zorder>te_cop_4</zorder>
+  <zorder>te_cop_5</zorder>
+  <zorder>te_cop_6</zorder>
+  <zorder>te_cop_7</zorder>
+  <zorder>te_cop_8</zorder>
+  <zorder>te_cop_9</zorder>
+  <zorder>te_cop_10</zorder>
  </widget>
  <resources/>
  <connections/>
