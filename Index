@@ -1,0 +1,13 @@
+Project ended with the normal data output pc programming(2020-03-16)
+-This project ended with the result of Joining kinect and serial data recognition.
+
+-Needed to be approved :
+
+Qbytearray should be firmly recognized other sources, in this case string data.
+
+Kinect will be in the one of same Threading. In this case, i would be more appropriate to just using other process
+
+in PC since python only gives you one threading data process ability.
+
+Thanks,
+EY
